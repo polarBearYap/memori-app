@@ -5,6 +5,7 @@ A flashcard learning app, made with Flutter.
 ## Table of Contents
 - [Dev Requirements](#dev-requirements)
 - [Getting Started](#getting-started)
+  - [Firebase](#firebase)
   - [IDE setup](#ide-setup)
 
 ## Dev Requirements
@@ -16,6 +17,11 @@ A flashcard learning app, made with Flutter.
 1. Complete setup of memori sync backend before proceed, as mentioned in Dev requirements.
 2. Follow this official guide on how to add firebase to flutter project to add missing credential files. [(links)](https://firebase.google.com/docs/flutter/setup?platform=ios)
 
+### Firebase
+1. Go to Firebase console > Firebase remote config, create a property named `sync_backend_url`.
+2. Set the value as the URL where your sync backend is hosted at.
+3. For example, memori sync backend is hosted at local machine port 8080. Set to `http://localhost:8080` for debugging purposes.
+
 ### IDE setup
 1. Run the command below to download required packages.
 ```
@@ -23,21 +29,21 @@ flutter pub get
 ```
 2. Run the command below to generate the JSON serialized annotated files and drift files.
 ```
-3. dart run build_runner build --delete-conflicting-outputs
+dart run build_runner build --delete-conflicting-outputs
 ```
-4. Run the command below to generate the localization files.
+3. Run the command below to generate the localization files.
 ```
 flutter gen-l10n
 ```
-5. Run the command below to build andriod APK.
+4. Run the command below to build android APK.
 ```
 flutter build apk --release
 ```
-6. Run the command below to build android app bundle.
+5. Run the command below to build android app bundle.
 ```
 flutter build appbundle --release
 ```
-7. Run the command below to build iOS app. Mac OS and apple developer account is required.
+6. Run the command below to build iOS app. macOS and Apple developer account is required.
 ```
 flutter build ios --release
 ```
