@@ -1,0 +1,572 @@
+{
+  "@@locale": "en",
+  "memori_app": "Memori",
+  "splashscreen_title1": "Master Your Learning",
+  "splashscreen_desc1": "Efficient learning made easy with our smart spaced repetition — remember more in less time.",
+  "splashscreen_title2": "Learn, Share, Succeed",
+  "splashscreen_desc2": "Share knowledge and grow together with custom flashcard decks.",
+  "splashscreen_title3": "Seamless Learning, Anywhere and Everywhere",
+  "splashscreen_desc3": "Sync your learning across devices, keeping flashcards and progress always within reach.",
+  "splashscreen_getstarted": "Get started",
+  "language_title": "Choose language",
+  "language_desc": "You can always change language in the settings later.",
+  "language_value_english": "English",
+  "language_value_chinese": "Chinese",
+  "language_continue": "Continue",
+  "user_login_tab_name": "Log in",
+  "user_signup_tab_name": "Sign up",
+  "user_email_hint_text": "Enter email",
+  "user_username_hint_text": "Enter username",
+  "user_password_hint_text": "Enter password",
+  "user_confirm_password_hint_text": "Re-enter password",
+  "user_password_strength_text": "Password strength",
+  "user_password_strength_very_weak": "Very weak",
+  "user_password_strength_weak": "Weak",
+  "user_password_strength_strong": "Strong",
+  "user_password_strength_very_strong": "Very strong",
+  "user_password_criteria_title": "Password Criteria",
+  "user_password_criteria_lowercase": "At least 1 lowercase letter",
+  "user_password_criteria_uppercase": "At least 1 uppercase letter",
+  "user_password_criteria_digit": "At least 1 digit letter",
+  "user_password_criteria_special": "At least 1 special letter",
+  "user_password_criteria_complex": "Password is unique and complex (Roughly 8 to 12 letters)",
+  "user_password_criteria_close": "Close",
+  "user_password_error_general": "Invalid password",
+  "user_password_error_is_empty": "Password cannot be empty",
+  "user_password_error_not_match": "Password does not match",
+  "user_email_error_general": "Invalid email",
+  "user_username_error_general": "Invalid email",
+  "user_login_button_text": "Log in",
+  "user_sign_up_button_text": "Sign Up",
+  "user_signup_hyperlink_text_front": "Don't have an account? ",
+  "user_signup_hyperlink_text_back": "Sign up",
+  "user_login_hyperlink_text_front": "Already have an account? ",
+  "user_login_hyperlink_text_back": "Log in",
+  "user_forgot_password_title": "Forgot password",
+  "user_login_error_general": "Login in Failed",
+  "user_signup_error_general": "Sign up Failed",
+  "user_signup_successful": "Sign up Successful",
+  "firebase_invalid_email": "Email is not valid.",
+  "firebase_user_disabled": "This user has been disabled. Please contact support for help.",
+  "firebase_email_not_found": "Email is not found, please create an account.",
+  "firebase_email_already_in_use": "An account already exists for that email.",
+  "firebase_operation_not_allowed": "Operation is not allowed.  Please contact support.",
+  "firebase_weak_password": "Please enter a stronger password.",
+  "firebase_wrong_password": "Invalid credentials.",
+  "firebase_unknown_error": "An unknown exception occurred.",
+  "deck_new": "New",
+  "deck_learning": "Learning",
+  "deck_reviewing": "Reviewing",
+  "deck_browse": "Browse",
+  "deck_option": "Options",
+  "deck_daily_limit": "Daily Limit",
+  "deck_new_card_per_day": "New cards / day",
+  "deck_max_review_per_day": "Maximum review / day",
+  "deck_card_type": "Card Type",
+  "deck_card_type_all": "All cards",
+  "deck_card_type_new": "New cards",
+  "deck_card_type_leanring": "Learning cards",
+  "deck_card_type_review": "Review cards",
+  "deck_review_not_yet": "Haven't reviewed yet",
+  "deck_review_last_review": "Last Review ",
+  "deck_card_type_apply": "Apply",
+  "deck_learn": "Learn",
+  "deck_rename": "Rename",
+  "deck_delete": "Delete",
+  "deck_add_title": "Create deck",
+  "deck_edit_title": "Edit deck",
+  "deck_name": "Deck Name",
+  "deck_add_edit_ok": "Ok",
+  "deck_add_edit_cancel": "Cancel",
+  "deck_resume_title": "Resume learning",
+  "deck_resume_desc": "Do you want to reset learning or resume previous learning?",
+  "deck_resume_cancel": "Cancel",
+  "deck_resume_confirm_resume": "Yes, resume.",
+  "deck_resume_confirm_reset": "No, reset.",
+  "deck_loading_failed": "Deck has failed to be loaded.",
+  "deck_no_card_created": "No card is found. Please create one.",
+  "deck_no_card_match_option": "No card can be learnt. Please adjust your option.",
+  "deck_no_card_due": "No card is due. Hence, all review cards are shown.",
+  "deck_name_is_empty": "Deck name should not be empty",
+  "deck_name_is_invalid": "Invalid deck",
+  "deck_add_successful": "Deck has been successfully added.",
+  "deck_update_successful": "Deck has been successfully updated.",
+  "deck_delete_successful": "Deck has been successfully deleted.",
+  "deck_add_failed": "Deck has failed to be added.",
+  "deck_update_failed": "Deck has failed to be updated.",
+  "deck_delete_failed": "Deck failed to be deleted.",
+  "deck_delete_confirm_title": "Confirm Deletion",
+  "deck_delete_confirm_desc": "Are you sure you want to delete deck '{deckName}'?",
+  "@deck_delete_confirm_desc": {
+    "placeholders": {
+      "deckName": {
+        "type": "String"
+      }
+    }
+  },
+  "deck_delete_confirm_ok": "Delete",
+  "deck_delete_confirm_cancel": "Cancel",
+  "deck_settings_title": "Settings for {deckSettingsName}",
+  "@deck_settings_title": {
+    "placeholders": {
+      "deckSettingsName": {
+        "type": "String"
+      }
+    }
+  },
+  "deck_setting_update_successful": "Deck settings has been successfully updated.",
+  "deck_setting_update_failed": "Deck settings has failed to be updated.",
+  "deck_title": "My deck",
+  "deck_empty_title": "You have no deck",
+  "deck_empty_desc": "Tap 'Add' icon below to add your first deck.",
+  "navigation_home": "Home",
+  "navigation_browse": "Browse",
+  "navigation_stats": "Stats",
+  "navigation_profile": "Profile",
+  "add_menu_add_card": "Add Card",
+  "add_menu_add_deck": "Add Deck",
+  "add_menu_get_shared_deck": "Get Shared Decks",
+  "add_menu_view_database": "View Database",
+  "settings": "Settings",
+  "settings_personal_info": "Personal info",
+  "settings_username": "Username",
+  "settings_email": "Email",
+  "settings_change_password": "Change password",
+  "settings_not_specified": "Not specified",
+  "settings_appearance": "Appearance",
+  "settings_theme": "Theme",
+  "settings_theme_title": "Change theme",
+  "settings_theme_light": "Light",
+  "settings_theme_dark": "Dark",
+  "settings_theme_system_default": "System default",
+  "settings_language": "Language",
+  "settings_font_size_scale": "Text",
+  "settings_font_size_scale_smallest": "Smallest",
+  "settings_font_size_scale_smaller": "Smaller",
+  "settings_font_size_scale_normal": "Normal",
+  "settings_font_size_scale_bigger": "Bigger",
+  "settings_font_size_scale_biggest": "Biggest",
+  "settings_about": "About",
+  "settings_privacy_policy": "Privacy policy",
+  "settings_terms_of_service": "Terms of service",
+  "settings_open_source_licenses": "Open sources licenses",
+  "settings_open_source_licenses_desc": "MIT License\n\nCopyright (c)\n\n2024 Yap Jheng Khin",
+  "settings_logout": "Log out",
+  "settings_logout_failed": "Log out failed",
+  "settings_delete_account": "Delete account",
+  "settings_delete_account_title": "Confirmation",
+  "settings_delete_account_desc": "Input your password for security so we can safely delete your account",
+  "settings_delete_account_button_text": "Delete account",
+  "settings_delete_account_cancel": "Cancel",
+  "settings_delete_account_confirmation_title": "Confirm Account Deletion",
+  "settings_delete_account_confirmation_desc": "Are you sure you want to delete this account?",
+  "settings_delete_account_confirmation_yes": "Delete",
+  "settings_delete_account_confirmation_no": "Cancel",
+  "settings_delete_account_success": "Your account has been successfully deleted.",
+  "settings_delete_account_success_title": "Account Deletion Success",
+  "settings_delete_account_success_ok": "Ok",
+  "settings_delete_account_failed_title": "Account Deletion Error",
+  "settings_delete_account_failed_ok": "Ok",
+  "card_browse_created_at": "Created {lastCreatedAt}",
+  "@card_browse_created_at": {
+    "placeholders": {
+      "lastCreatedAt": {
+        "type": "String"
+      }
+    }
+  },
+  "card_browse_modified_at": "Modified {lastModifiedAt}",
+  "@card_browse_modified_at": {
+    "placeholders": {
+      "lastModifiedAt": {
+        "type": "String"
+      }
+    }
+  },
+  "card_browse_loading_failed": "Card has failed to be loaded.",
+  "card_search_empty_title": "No Result Found",
+  "card_search_empty_desc": "We can't find any item matching your search",
+  "card_search_hint_text": "Search...",
+  "card_sort_filter": "Sort & Filter",
+  "card_sort_filter_clear": "Clear",
+  "card_filter_title": "Filter by",
+  "card_sort_title": "Sort by",
+  "card_sort_modified_date": "Modified Date",
+  "card_sort_created_date": "Created Date",
+  "card_sort_filter_apply": "Apply",
+  "deck_form_title": "Select deck",
+  "deck_form_search_hint": "Search",
+  "deck_form_title_with_selection": "Deck ({numberOfDeck}) selected",
+  "@deck_form_title_with_selection": {
+    "placeholders": {
+      "numberOfDeck": {
+        "type": "int"
+      }
+    }
+  },
+  "card_tag_title": "Select tag",
+  "card_tag_title_with_selection": "Tag ({numberOfTag}) selected",
+  "@card_tag_title_with_selection": {
+    "placeholders": {
+      "numberOfTag": {
+        "type": "int"
+      }
+    }
+  },
+  "card_tag_search_hint_text": "Search / type to add",
+  "card_tag_add_title": "Create card tag",
+  "card_tag_edit_title": "Edit card tag",
+  "card_tag_name": "Card tag name",
+  "card_tag_save_ok": "Ok",
+  "card_tag_save_cancel": "Cancel",
+  "card_tag_tooltip_delete": "Delete",
+  "card_tag_name_is_empty": "Card tag should not be empty",
+  "card_tag_name_is_invalid": "Invalid card tag",
+  "card_tag_add_successful": "Card tag has been successfully created.",
+  "card_tag_update_successful": "Card tag has been successfully updated.",
+  "card_tag_delete_successful": "Card tag has been successfully deleted.",
+  "card_tag_loading_failed": "Card tag has failed to be loaded.",
+  "card_tag_add_failed": "Card tag has failed to be created.",
+  "card_tag_update_failed": "Card tag has failed to be updated.",
+  "card_tag_delete_failed": "Card tag has failed to be deleted.",
+  "card_tag_delete_confirm_title": "Confirm Deletion",
+  "card_tag_delete_confirm_desc": "Are you sure you want to delete card tag '{cardTagName}'?",
+  "@card_tag_delete_confirm_desc": {
+    "placeholders": {
+      "cardTagName": {
+        "type": "String"
+      }
+    }
+  },
+  "card_tag_delete_confirm_ok": "Delete",
+  "card_tag_delete_confirm_cancel": "Cancel",
+  "card_tag_not_found_title": "No tag is found.",
+  "card_tag_add_button": "Add Tag",
+  "learn_card_state_new": "New",
+  "learn_card_state_learning": "Learning",
+  "learn_card_state_reviewing": "Reviewing",
+  "learn_card_show_answer": "Show Answer",
+  "learn_card_feedback_again": "Again",
+  "learn_card_feedback_hard": "Hard",
+  "learn_card_feedback_good": "Good",
+  "learn_card_feedback_easy": "Easy",
+  "learn_card_edit_card": "Edit",
+  "learn_card_previous_card": "Previous card",
+  "learn_card_next_card": "Next card",
+  "learn_card_congratulate_title": "Congratulations!",
+  "learn_card_congratulate_desc": "You have studied {deckCount} decks today.",
+  "@learn_card_congratulate_desc": {
+    "placeholders": {
+      "deckCount": {
+        "type": "int"
+      }
+    }
+  },
+  "learn_card_congratulate_return_home": "Return to home",
+  "flip_card_front": "Front",
+  "flip_card_back": "Back",
+  "add_card_title": "Add Card",
+  "edit_card_title": "Edit Card",
+  "add_edit_card_invalid_deck": "Deck must be selected.",
+  "add_edit_card_invalid_tag": "Tag is invalid.",
+  "add_edit_card_invalid_front": "Front cannot be empty.",
+  "add_edit_card_invalid_back": "Back cannot be empty.",
+  "add_edit_card_unsave_title": "Discard Changes?",
+  "add_edit_card_unsave_desc": "Do you want to discard your unsaved changes?",
+  "add_edit_card_unsave_confirm": "Discard",
+  "add_edit_card_unsave_cancel": "Cancel",
+  "add_edit_card_create_successful": "Card has been successfully created.",
+  "add_edit_card_update_successful": "Card has been successfully updated.",
+  "add_edit_card_delete_successful": "Card has been successfully deleted.",
+  "add_edit_card_create_opened": "Card has failed to be opened.",
+  "add_edit_card_create_failed": "Card has failed to be created.",
+  "add_edit_card_update_failed": "Card has failed to be updated.",
+  "add_edit_card_delete_failed": "Card has failed to be deleted.",
+  "preview_card_title": "Preview card",
+  "preview_card_flip_to_front": "Flip to front",
+  "preview_card_flip_to_back": "Flip to back",
+  "card_delete_confirm_title": "Confirm Deletion",
+  "card_delete_confirm_desc": "Are you sure you want to delete this card?",
+  "card_delete_confirm_ok": "Delete",
+  "card_delete_confirm_cancel": "Cancel",
+  "card_editor_placeholder": "Start writing...",
+  "card_editor_highlight": "Highlight",
+  "card_editor_font_color": "Font Color",
+  "card_editor_clear_formatting": "Clear Formatting",
+  "card_editor_popup_choose_opton": "Choose an option",
+  "card_editor_find_text": "Search",
+  "error_404_title": "Something went wrong",
+  "error_404_description": "The page is not found. Sorry for any inconvenience.",
+  "error_500_title": "Something went wrong",
+  "error_500_description": "An error has encountered. Sorry for any inconvenience.",
+  "error_return_to_sign_up": "Return to sign up page",
+  "error_return_to_login": "Return to login page",
+  "error_return_to_home": "Return to home page",
+  "timepassed_minutes": "{num, plural, =0{0 minute} =1{1 minute} other{{num} minutes}} ago",
+  "@timepassed_minutes": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_hours": "{num, plural, =0{0 hour} =1{1 hour} other{{num} hours}} ago",
+  "@timepassed_hours": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_days": "{num, plural, =0{0 day} =1{1 day} other{{num} days}} ago",
+  "@timepassed_days": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_weeks": "{num, plural, =0{0 week} =1{1 week} other{{num} weeks}} ago",
+  "@timepassed_weeks": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_months": "{num, plural, =0{0 month} =1{1 month} other{{num} months}} ago",
+  "@timepassed_months": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_minutes_short": "{num, plural, =0{0 Min} =1{1 Min} other{{num} Mins}} ago",
+  "@timepassed_minutes_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_hours_short": "{num, plural, =0{0 Hour} =1{1 Hour} other{{num} Hours}} ago",
+  "@timepassed_hours_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_days_short": "{num, plural, =0{0 Day} =1{1 Day} other{{num} Days}} ago",
+  "@timepassed_days_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_weeks_short": "{num, plural, =0{0 Week} =1{1 Week} other{{num} Weeks}} ago",
+  "@timepassed_weeks_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_months_short": "{num, plural, =0{0 Month} =1{1 Month} other{{num} Months}} ago",
+  "@timepassed_months_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_minutes": "< {num, plural, =0{0 Min} =1{1 Min} other{{num} Mins}}",
+  "@next_review_time_minutes": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_hours": "< {num, plural, =0{0 Hour} =1{1 Hour} other{{num} Hours}}",
+  "@next_review_time_hours": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_days": "< {num, plural, =0{0 Day} =1{1 Day} other{{num} Days}}",
+  "@next_review_time_days": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_weeks": "< {num, plural, =0{0 Week} =1{1 Week} other{{num} Weeks}}",
+  "@next_review_time_weeks": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_months": "< {num, plural, =0{0 Month} =1{1 Month} other{{num} Months}}",
+  "@next_review_time_months": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "showcase_add_fab_title": "Add",
+  "showcase_add_fab_desc": "Tap to add card/deck",
+  "showcase_add_card_menu_title": "Add Card",
+  "showcase_add_card_menu_desc": "Tap to add card",
+  "showcase_add_deck_menu_title": "Add Deck",
+  "showcase_add_deck_menu_desc": "Tap to add deck",
+  "showcase_deck_added_title": "Deck newly added",
+  "showcase_deck_added_desc": "The newly added deck will appear here",
+  "showcase_card_added_title": "Learn Card",
+  "showcase_card_added_desc": "Congrats on creating your first card. Tap the learn button at the bottom right corner to start learning.",
+  "showcase_add_deck_textfield_title": "Add Deck",
+  "showcase_add_deck_textfield_desc": "Enter your deck name here",
+  "showcase_add_deck_submit_title": "Add Deck",
+  "showcase_add_deck_submit_desc": "Tap this icon to add deck",
+  "showcase_quill_format_title": "Format text",
+  "showcase_quill_format_desc": "You can format your text here",
+  "showcase_quill_format_more_title": "Format text",
+  "showcase_quill_format_more_desc": "Tap the expand icon for more formatting options",
+  "showcase_quill_save_title": "Save card",
+  "showcase_quill_save_desc": "Tap here to save and exit the card",
+  "showcase_card_return_home_title": "Exit Add Card",
+  "showcase_card_return_home_desc": "Tap this icon to return to home page",
+  "showcase_card_save_title": "Confirm Add Card",
+  "showcase_card_save_desc": "Tap to save card",
+  "showcase_card_select_deck_title": "Select Deck",
+  "showcase_card_select_deck_desc": "Select a deck to proceed",
+  "showcase_card_front_edit_title": "Edit Front",
+  "showcase_card_front_edit_desc": "Tap the edit icon to edit the card's front",
+  "showcase_card_back_edit_title": "Edit Back",
+  "showcase_card_back_edit_desc": "Tap the edit icon to edit the card's back",
+  "showcase_learn_state_title": "Card States",
+  "showcase_learn_state_desc": "You can track the new, learning, and reviewing card count here",
+  "showcase_learn_progress_title": "Learn progress",
+  "showcase_learn_progress_desc": "You can track your current learning progress here",
+  "showcase_learn_show_answer_title": "Show Answer",
+  "showcase_learn_show_answer_desc": "You can tap on this button when you have finished learning and want to reveal the answer",
+  "showcase_learn_review_title": "Review Learning",
+  "showcase_learn_review_desc": "Tap 'again' if you having diffculty learning this card or tap 'easy' if you can learn this card with ease.",
+  "showcase_learn_front_title": "Card 's Front",
+  "showcase_learn_front_desc": "You can view the front of card here",
+  "showcase_learn_back_title": "Card 's Back",
+  "showcase_learn_back_desc": "You can view the back of card here",
+  "showcase_start_title": "Ready to create your first card?",
+  "showcase_start_desc": "We would love to give you a tour to show how you can get the most out of this app.",
+  "showcase_start_confirm": "Let's Go",
+  "showcase_start_cancel": "Dismiss",
+  "showcase_end_title": "Congratulation!",
+  "showcase_end_desc": "You have successfully created and learned your first card!",
+  "showcase_end_return_to_home": "Return to Home",
+  "sync_progress_pull_data": "Pulling data from cloud...",
+  "sync_progress_push_data": "Pushing data to cloud...",
+  "sync_progress_successful": "Cloud sync is successful.",
+  "sync_progress_failed": "Cloud sync fails unexpectedly.",
+  "sync_progress_backend_not_available": "Cloud sync is not available. Please try again later.",
+  "sync_progress_conflicted": "Conflict encountered during cloud sync.",
+  "sync_conflict_dialog_title": "Your local data conflicts with the ones stored in the cloud.",
+  "sync_conflict_dialog_override_local_copy": "Download to this device",
+  "sync_conflict_dialog_override_cloud_copy": "Upload to the cloud",
+  "sync_conflict_dialog_confirm": "Confirm",
+  "sync_conflict_dialog_dismiss": "Cancel, don't override anything for now",
+  "pasteLink": "Paste a link",
+  "ok": "Ok",
+  "selectColor": "Select Color",
+  "gallery": "Gallery",
+  "link": "Link",
+  "open": "Open",
+  "copy": "Copy",
+  "remove": "Remove",
+  "save": "Save",
+  "zoom": "Zoom",
+  "saved": "Saved",
+  "text": "Text",
+  "resize": "Resize",
+  "width": "Width",
+  "height": "Height",
+  "size": "Size",
+  "small": "Small",
+  "large": "Large",
+  "huge": "Huge",
+  "clear": "Clear",
+  "font": "Font",
+  "search": "Search",
+  "camera": "Camera",
+  "video": "Video",
+  "undo": "Undo",
+  "redo": "Redo",
+  "fontFamily": "Font family",
+  "fontSize": "Font size",
+  "bold": "Bold",
+  "subscript": "Subscript",
+  "superscript": "Superscript",
+  "italic": "Italic",
+  "underline": "Underline",
+  "strikeThrough": "Strike through",
+  "inlineCode": "Inline code",
+  "fontColor": "Font color",
+  "backgroundColor": "Background color",
+  "clearFormat": "Clear format",
+  "alignLeft": "Align left",
+  "alignCenter": "Align center",
+  "alignRight": "Align right",
+  "justifyWinWidth": "Justify win width",
+  "textDirection": "Text direction",
+  "headerStyle": "Header style",
+  "normal": "Normal",
+  "heading1": "Heading 1",
+  "heading2": "Heading 2",
+  "heading3": "Heading 3",
+  "heading4": "Heading 4",
+  "heading5": "Heading 5",
+  "heading6": "Heading 6",
+  "numberedList": "Numbered list",
+  "bulletList": "Bullet list",
+  "checkedList": "Checked list",
+  "codeBlock": "Code block",
+  "quote": "Quote",
+  "increaseIndent": "Increase indent",
+  "decreaseIndent": "Decrease indent",
+  "insertURL": "Insert URL",
+  "visitLink": "Visit link",
+  "enterLink": "Enter link",
+  "enterMedia": "Enter media",
+  "edit": "Edit",
+  "apply": "Apply",
+  "hex": "Hex",
+  "material": "Material",
+  "color": "Color",
+  "findText": "Find text",
+  "moveToPreviousOccurrence": "Move to previous occurrence",
+  "moveToNextOccurrence": "Move to next occurrence",
+  "savedUsingTheNetwork": "Saved using the network",
+  "savedUsingLocalStorage": "Saved using the local storage",
+  "errorWhileSavingImage": "Error while saving image",
+  "pleaseEnterTextForYourLink": "Please enter a text for your link (e.g., 'Learn more')",
+  "pleaseEnterTheLinkURL": "Please enter the link URL (e.g., 'https://example.com')",
+  "pleaseEnterAValidImageURL": "Please enter a valid image URL",
+  "pleaseEnterAValidVideoURL": "Please enter a valid video url",
+  "photo": "Photo",
+  "image": "Image",
+  "caseSensitivityAndWholeWordSearch": "Case sensitivity and whole word search",
+  "insertImage": "Insert image",
+  "pickAPhotoFromYourGallery": "Pick a photo from your gallery",
+  "takeAPhotoUsingYourCamera": "Take a photo using your camera",
+  "pasteAPhotoUsingALink": "Paste a photo using a link",
+  "pickAVideoFromYourGallery": "Pick a video from your gallery",
+  "recordAVideoUsingYourCamera": "Record a video using your camera",
+  "pasteAVideoUsingALink": "Paste a video using a link"
+}

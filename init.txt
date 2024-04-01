@@ -1,0 +1,33 @@
+dart pub global activate flutterfire_cli
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+watch -n 1 flutter gen-l10n
+
+Drift command
+dart run build_runner build
+dart run build_runner watch
+dart run drift_dev identify-databases
+dart run drift_dev analyze
+
+Json serializable command
+dart run build_runner build --delete-conflicting-outputs
+dart run build_runner watch --delete-conflicting-outputs
+
+Drift app start insert data
+https://drift.simonbinder.eu/faq/#how-do-i-insert-data-on-the-first-app-start
+
+Drift testing
+https://drift.simonbinder.eu/docs/testing/
+
+2. 
+rm -rf lib/src/l10n/generated
+flutter pub get
+flutter gen-l10n
+dart fix --apply ./lib/src/l10n/generated
+dart format ./lib/src/l10n/generated
+
+For Android: Use flutter build apk --split-per-abi (split APK by ABI) or flutter build appbundle (recommended for publishing to Play Store) and check the size of the generated files in your build/app/outputs/flutter-apk/ or build/app/outputs/bundle/release/ directory.
+For iOS: Use flutter build ios and then archive the app using Xcode to create a release version. You can inspect the size of the final IPA file through Xcode's Organizer after archiving.
+
+flutter build apk --release
+flutter build appbundle --release

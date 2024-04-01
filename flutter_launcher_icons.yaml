@@ -1,0 +1,10 @@
+# Run dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: assets/app_icons/memori_app_icon.png
+  adaptive_icon_foreground: assets/app_icons/memori_app_icon_foreground.png
+  adaptive_icon_background: assets/app_icons/memori_app_icon_background.png
+  adaptive_icon_monochrome: assets/app_icons/memori_app_icon_foreground_monochrome.png
+  image_path_ios: assets/app_icons/memori_app_icon.png
+  remove_alpha_ios: true

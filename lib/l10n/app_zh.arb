@@ -1,0 +1,572 @@
+{
+  "@@locale": "zh",
+  "memori_app": "记忆",
+  "splashscreen_title1": "掌控你的学习",
+  "splashscreen_desc1": "通过我们的智能间隔重复，高效学习变得容易 — 在更短的时间内记住更多。",
+  "splashscreen_title2": "学习、分享、成功",
+  "splashscreen_desc2": "分享知识并与自定义抽认卡组一起成长。",
+  "splashscreen_title3": "随时随地无缝学习",
+  "splashscreen_desc3": "跨设备同步学习，让抽认卡和进度始终触手可及。",
+  "splashscreen_getstarted": "开始使用",
+  "language_title": "选择语言",
+  "language_desc": "您以后可以随时在设置中更改语言。",
+  "language_value_english": "英语",
+  "language_value_chinese": "中文",
+  "language_continue": "继续",
+  "user_login_tab_name": "登录",
+  "user_signup_tab_name": "注册",
+  "user_email_hint_text": "输入电子邮件",
+  "user_username_hint_text": "输入用户名",
+  "user_password_hint_text": "输入密码",
+  "user_confirm_password_hint_text": "重新输入密码",
+  "user_password_strength_text": "密码强度",
+  "user_password_strength_very_weak": "非常弱",
+  "user_password_strength_weak": "弱",
+  "user_password_strength_strong": "强",
+  "user_password_strength_very_strong": "非常强",
+  "user_password_criteria_title": "密码条件",
+  "user_password_criteria_lowercase": "至少 1 个小写字母",
+  "user_password_criteria_uppercase": "至少 1 个大写字母",
+  "user_password_criteria_digit": "至少 1 位字母",
+  "user_password_criteria_special": "至少 1 个特殊字母",
+  "user_password_criteria_complex": "密码是唯一且复杂的（大约 8 到 12 个字母）",
+  "user_password_criteria_close": "关闭",
+  "user_password_error_general": "密码无效",
+  "user_password_error_is_empty": "密码不能为空",
+  "user_password_error_not_match": "密码不匹配",
+  "user_email_error_general": "电子邮件无效",
+  "user_username_error_general": "电子邮件无效",
+  "user_login_button_text": "登录",
+  "user_sign_up_button_text": "注册",
+  "user_signup_hyperlink_text_front": "没有帐户？ ",
+  "user_signup_hyperlink_text_back": "注册",
+  "user_login_hyperlink_text_front": "已有账户？ ",
+  "user_login_hyperlink_text_back": "登录",
+  "user_forgot_password_title": "忘记密码",
+  "user_login_error_general": "登录失败",
+  "user_signup_error_general": "注册失败",
+  "user_signup_successful": "注册成功",
+  "firebase_invalid_email": "电子邮件无效。",
+  "firebase_user_disabled": "该用户已被禁用。请联系支持人员寻求帮助。",
+  "firebase_email_not_found": "未找到电子邮件，请创建一个帐户。",
+  "firebase_email_already_in_use": "该电子邮件的帐户已存在。",
+  "firebase_operation_not_allowed": "不允许操作。请联系支持人员。",
+  "firebase_weak_password": "请输入更强的密码。",
+  "firebase_wrong_password": "凭据无效。",
+  "firebase_unknown_error": "发生未知异常。",
+  "deck_new": "新",
+  "deck_learning": "学习",
+  "deck_reviewing": "正在审阅",
+  "deck_browse": "浏览",
+  "deck_option": "选项",
+  "deck_daily_limit": "每日限额",
+  "deck_new_card_per_day": "新卡/天",
+  "deck_max_review_per_day": "最大评论/天",
+  "deck_card_type": "卡牌类型",
+  "deck_card_type_all": "所有卡牌",
+  "deck_card_type_new": "新卡牌",
+  "deck_card_type_leanring": "学习卡",
+  "deck_card_type_review": "查看卡片",
+  "deck_review_not_yet": "尚未审核",
+  "deck_review_last_review": "最后评论 ",
+  "deck_card_type_apply": "应用",
+  "deck_learn": "学习",
+  "deck_rename": "重命名",
+  "deck_delete": "删除",
+  "deck_add_title": "创建牌组",
+  "deck_edit_title": "编辑牌组",
+  "deck_name": "套牌名称",
+  "deck_add_edit_ok": "好的",
+  "deck_add_edit_cancel": "取消",
+  "deck_resume_title": "继续学习",
+  "deck_resume_desc": "你想重置学习还是恢复之前的学习？",
+  "deck_resume_cancel": "取消",
+  "deck_resume_confirm_resume": "是的，恢复。",
+  "deck_resume_confirm_reset": "不，重置。",
+  "deck_loading_failed": "甲板加载失败。",
+  "deck_no_card_created": "未找到卡片。请创建一张。",
+  "deck_no_card_match_option": "无法学习任何卡牌。请调整您的选项。",
+  "deck_no_card_due": "没有卡片到期。因此，显示所有复习卡片。",
+  "deck_name_is_empty": "套牌名称不能为空",
+  "deck_name_is_invalid": "无效的牌组",
+  "deck_add_successful": "甲板已成功添加。",
+  "deck_update_successful": "甲板已成功更新。",
+  "deck_delete_successful": "甲板已成功删除。",
+  "deck_add_failed": "添加牌组失败。",
+  "deck_update_failed": "甲板更新失败。",
+  "deck_delete_failed": "删除牌组失败。",
+  "deck_delete_confirm_title": "确认删除",
+  "deck_delete_confirm_desc": "您确定要删除牌组 '{deckName}' 吗？",
+  "@deck_delete_confirm_desc": {
+    "placeholders": {
+      "deckName": {
+        "type": "String"
+      }
+    }
+  },
+  "deck_delete_confirm_ok": "删除",
+  "deck_delete_confirm_cancel": "取消",
+  "deck_settings_title": "{deckSettingsName} 的设置",
+  "@deck_settings_title": {
+    "placeholders": {
+      "deckSettingsName": {
+        "type": "String"
+      }
+    }
+  },
+  "deck_setting_update_successful": "套牌设置已成功更新。",
+  "deck_setting_update_failed": "牌组设置更新失败。",
+  "deck_title": "我的牌组",
+  "deck_empty_title": "你没有牌组",
+  "deck_empty_desc": "点击下面的“添加”图标添加您的第一副牌。",
+  "navigation_home": "首页",
+  "navigation_browse": "浏览",
+  "navigation_stats": "统计信息",
+  "navigation_profile": "个人资料",
+  "add_menu_add_card": "添加卡片",
+  "add_menu_add_deck": "添加牌组",
+  "add_menu_get_shared_deck": "获取共享牌组",
+  "add_menu_view_database": "查看数据库",
+  "settings": "设置",
+  "settings_personal_info": "个人信息",
+  "settings_username": "用户名",
+  "settings_email": "电子邮件",
+  "settings_change_password": "更改密码",
+  "settings_not_specified": "未指定",
+  "settings_appearance": "外观",
+  "settings_theme": "主题",
+  "settings_theme_title": "更改主题",
+  "settings_theme_light": "灯光",
+  "settings_theme_dark": "黑暗",
+  "settings_theme_system_default": "系统默认",
+  "settings_language": "语言",
+  "settings_font_size_scale": "文本",
+  "settings_font_size_scale_smallest": "最小",
+  "settings_font_size_scale_smaller": "较小",
+  "settings_font_size_scale_normal": "正常",
+  "settings_font_size_scale_bigger": "更大",
+  "settings_font_size_scale_biggest": "最大",
+  "settings_about": "关于",
+  "settings_privacy_policy": "隐私政策",
+  "settings_terms_of_service": "服务条款",
+  "settings_open_source_licenses": "开源许可证",
+  "settings_open_source_licenses_desc": "MIT License\n\n版权所有 (c)\n\n2024 叶征缣",
+  "settings_logout": "注销",
+  "settings_logout_failed": "注销失败",
+  "settings_delete_account": "删除帐户",
+  "settings_delete_account_title": "确认",
+  "settings_delete_account_desc": "为了安全起见，请输入您的密码，以便我们安全地删除您的帐户",
+  "settings_delete_account_button_text": "删除帐户",
+  "settings_delete_account_cancel": "取消",
+  "settings_delete_account_confirmation_title": "确认帐户删除",
+  "settings_delete_account_confirmation_desc": "您确定要删除此帐户吗？",
+  "settings_delete_account_confirmation_yes": "删除",
+  "settings_delete_account_confirmation_no": "取消",
+  "settings_delete_account_success": "您的帐户已成功删除。",
+  "settings_delete_account_success_title": "账户删除成功",
+  "settings_delete_account_success_ok": "好的",
+  "settings_delete_account_failed_title": "帐户删除错误",
+  "settings_delete_account_failed_ok": "好的",
+  "card_browse_created_at": "已创建 {lastCreatedAt}",
+  "@card_browse_created_at": {
+    "placeholders": {
+      "lastCreatedAt": {
+        "type": "String"
+      }
+    }
+  },
+  "card_browse_modified_at": "修改了 {lastModifiedAt}",
+  "@card_browse_modified_at": {
+    "placeholders": {
+      "lastModifiedAt": {
+        "type": "String"
+      }
+    }
+  },
+  "card_browse_loading_failed": "卡片加载失败。",
+  "card_search_empty_title": "未找到结果",
+  "card_search_empty_desc": "我们找不到任何与您的搜索匹配的项目",
+  "card_search_hint_text": "搜索...",
+  "card_sort_filter": "排序&过滤",
+  "card_sort_filter_clear": "清除",
+  "card_filter_title": "过滤依据",
+  "card_sort_title": "排序依据",
+  "card_sort_modified_date": "修改日期",
+  "card_sort_created_date": "创建日期",
+  "card_sort_filter_apply": "应用",
+  "deck_form_title": "选择牌组",
+  "deck_form_search_hint": "搜索",
+  "deck_form_title_with_selection": "已选择套牌 ({numberOfDeck})",
+  "@deck_form_title_with_selection": {
+    "placeholders": {
+      "numberOfDeck": {
+        "type": "int"
+      }
+    }
+  },
+  "card_tag_title": "选择标签",
+  "card_tag_title_with_selection": "已选择标签 ({numberOfTag})",
+  "@card_tag_title_with_selection": {
+    "placeholders": {
+      "numberOfTag": {
+        "type": "int"
+      }
+    }
+  },
+  "card_tag_search_hint_text": "搜索/输入要添加的",
+  "card_tag_add_title": "创建卡片标签",
+  "card_tag_edit_title": "编辑卡片标签",
+  "card_tag_name": "卡片标签名称",
+  "card_tag_save_ok": "好的",
+  "card_tag_save_cancel": "取消",
+  "card_tag_tooltip_delete": "删除",
+  "card_tag_name_is_empty": "卡片标签不能为空",
+  "card_tag_name_is_invalid": "卡片标签无效",
+  "card_tag_add_successful": "卡片标签已成功创建。",
+  "card_tag_update_successful": "卡片标签已成功更新。",
+  "card_tag_delete_successful": "卡片标签已成功删除。",
+  "card_tag_loading_failed": "卡片标签加载失败。",
+  "card_tag_add_failed": "卡片标签创建失败。",
+  "card_tag_update_failed": "卡片标签更新失败。",
+  "card_tag_delete_failed": "卡片标签删除失败。",
+  "card_tag_delete_confirm_title": "确认删除",
+  "card_tag_delete_confirm_desc": "您确定要删除卡片标签'{cardTagName}'吗？",
+  "@card_tag_delete_confirm_desc": {
+    "placeholders": {
+      "cardTagName": {
+        "type": "String"
+      }
+    }
+  },
+  "card_tag_delete_confirm_ok": "删除",
+  "card_tag_delete_confirm_cancel": "取消",
+  "card_tag_not_found_title": "未找到标签。",
+  "card_tag_add_button": "添加标签",
+  "learn_card_state_new": "新",
+  "learn_card_state_learning": "学习",
+  "learn_card_state_reviewing": "正在复习",
+  "learn_card_show_answer": "显示答案",
+  "learn_card_feedback_again": "再次",
+  "learn_card_feedback_hard": "难",
+  "learn_card_feedback_good": "好",
+  "learn_card_feedback_easy": "简单",
+  "learn_card_edit_card": "编辑",
+  "learn_card_previous_card": "上一张卡",
+  "learn_card_next_card": "下一张卡",
+  "learn_card_congratulate_title": "恭喜！",
+  "learn_card_congratulate_desc": "你今天已经学习了 {deckCount} 套牌。",
+  "@learn_card_congratulate_desc": {
+    "placeholders": {
+      "deckCount": {
+        "type": "int"
+      }
+    }
+  },
+  "learn_card_congratulate_return_home": "返回家",
+  "flip_card_front": "正面",
+  "flip_card_back": "返回",
+  "add_card_title": "添加卡片",
+  "edit_card_title": "编辑卡片",
+  "add_edit_card_invalid_deck": "必须选择牌组。",
+  "add_edit_card_invalid_tag": "标签无效。",
+  "add_edit_card_invalid_front": "正面不能为空。",
+  "add_edit_card_invalid_back": "后面不能为空。",
+  "add_edit_card_unsave_title": "放弃更改？",
+  "add_edit_card_unsave_desc": "您想放弃未保存的更改吗？",
+  "add_edit_card_unsave_confirm": "放弃",
+  "add_edit_card_unsave_cancel": "取消",
+  "add_edit_card_create_successful": "卡片已成功创建。",
+  "add_edit_card_update_successful": "卡片已成功更新。",
+  "add_edit_card_delete_successful": "卡片已成功删除。",
+  "add_edit_card_create_opened": "卡片打开失败。",
+  "add_edit_card_create_failed": "创建卡片失败。",
+  "add_edit_card_update_failed": "卡片更新失败。",
+  "add_edit_card_delete_failed": "卡片删除失败。",
+  "preview_card_title": "预览卡",
+  "preview_card_flip_to_front": "翻转到前面",
+  "preview_card_flip_to_back": "翻转到背面",
+  "card_delete_confirm_title": "确认删除",
+  "card_delete_confirm_desc": "您确定要删除这张卡吗？",
+  "card_delete_confirm_ok": "删除",
+  "card_delete_confirm_cancel": "取消",
+  "card_editor_placeholder": "开始写...",
+  "card_editor_highlight": "突出显示",
+  "card_editor_font_color": "字体颜色",
+  "card_editor_clear_formatting": "清除格式",
+  "card_editor_popup_choose_opton": "选择一个选项",
+  "card_editor_find_text": "查找",
+  "error_404_title": "出了点问题",
+  "error_404_description": "找不到该页面。给您带来的不便，敬请谅解。",
+  "error_500_title": "出了点问题",
+  "error_500_description": "遇到错误。对于给您带来的不便，我们深表歉意。",
+  "error_return_to_sign_up": "返回注册页面",
+  "error_return_to_login": "返回登录页面",
+  "error_return_to_home": "返回首页",
+  "sync_progress_pull_data": "正在从云端拉取数据...",
+  "sync_progress_push_data": "正在将数据推送到云端...",
+  "sync_progress_successful": "云同步成功。",
+  "sync_progress_failed": "云同步意外失败。",
+  "sync_progress_backend_not_available": "云同步不可用，请稍后重试。",
+  "sync_progress_conflicted": "云同步过程中遇到冲突。",
+  "sync_conflict_dialog_title": "您的本地数据与云端存储的数据冲突。",
+  "sync_conflict_dialog_override_local_copy": "下载到此设备",
+  "sync_conflict_dialog_override_cloud_copy": "上传到云端",
+  "sync_conflict_dialog_confirm": "确认",
+  "sync_conflict_dialog_dismiss": "取消，暂时不要覆盖任何内容",
+  "timepassed_minutes": "{num}分钟前",
+  "@timepassed_minutes": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_hours": "{num}小时前",
+  "@timepassed_hours": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_days": "{num}天前",
+  "@timepassed_days": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_weeks": "{num}周前",
+  "@timepassed_weeks": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_months": "{num}个月前",
+  "@timepassed_months": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_minutes_short": "{num}分钟前",
+  "@timepassed_minutes_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_hours_short": "{num}小时前",
+  "@timepassed_hours_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_days_short": "{num}天前",
+  "@timepassed_days_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_weeks_short": "{num}周前",
+  "@timepassed_weeks_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "timepassed_months_short": "{num}个月前",
+  "@timepassed_months_short": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_minutes": "< {num}分钟",
+  "@next_review_time_minutes": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_hours": "< {num}小时",
+  "@next_review_time_hours": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_days": "< {num}天",
+  "@next_review_time_days": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_weeks": "< {num}周",
+  "@next_review_time_weeks": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "next_review_time_months": "< {num}个月",
+  "@next_review_time_months": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "showcase_add_fab_title": "添加",
+  "showcase_add_fab_desc": "点击以添加卡/牌组",
+  "showcase_add_card_menu_title": "添加卡片",
+  "showcase_add_card_menu_desc": "点击即可添加卡片",
+  "showcase_add_deck_menu_title": "添加牌组",
+  "showcase_add_deck_menu_desc": "点击即可添加牌组",
+  "showcase_deck_added_title": "新添加的牌组",
+  "showcase_deck_added_desc": "新添加的牌组将出现在此处",
+  "showcase_card_added_title": "学习卡",
+  "showcase_card_added_desc": "恭喜您创建了第一张卡片。点击右下角的学习按钮即可开始学习。",
+  "showcase_add_deck_textfield_title": "添加牌组",
+  "showcase_add_deck_textfield_desc": "在此输入你的套牌名称",
+  "showcase_add_deck_submit_title": "添加牌组",
+  "showcase_add_deck_submit_desc": "点击此图标可添加牌组",
+  "showcase_quill_format_title": "设置文本格式",
+  "showcase_quill_format_desc": "您可以在此处设置文本格式",
+  "showcase_quill_format_more_title": "设置文本格式",
+  "showcase_quill_format_more_desc": "点击展开图标以获取更多格式选项",
+  "showcase_quill_save_title": "保存卡片",
+  "showcase_quill_save_desc": "点击此处保存并退出卡片",
+  "showcase_card_return_home_title": "退出添加卡",
+  "showcase_card_return_home_desc": "点击此图标返回主页",
+  "showcase_card_save_title": "确认添加卡",
+  "showcase_card_save_desc": "点击保存卡片",
+  "showcase_card_select_deck_title": "选择牌组",
+  "showcase_card_select_deck_desc": "选择一副牌继续",
+  "showcase_card_front_edit_title": "编辑正面",
+  "showcase_card_front_edit_desc": "点击编辑图标可编辑卡片的正面",
+  "showcase_card_back_edit_title": "向后编辑",
+  "showcase_card_back_edit_desc": "点击编辑图标可编辑卡片背面",
+  "showcase_learn_state_title": "卡片状态",
+  "showcase_learn_state_desc": "您可以在此处跟踪新卡、学习卡和复习卡数量",
+  "showcase_learn_progress_title": "学习进度",
+  "showcase_learn_progress_desc": "您可以在这里跟踪您当前的学习进度",
+  "showcase_learn_show_answer_title": "显示答案",
+  "showcase_learn_show_answer_desc": "当您完成学习并想要揭晓答案时，可以点击此按钮",
+  "showcase_learn_review_title": "回顾学习内容",
+  "showcase_learn_review_desc": "如果您学习这张卡有困难，请点击“再次”；如果您可以轻松学习这张卡，请点击“简单”。",
+  "showcase_learn_front_title": "卡片正面",
+  "showcase_learn_front_desc": "您可以在此处查看卡片的正面",
+  "showcase_learn_back_title": "卡片背面",
+  "showcase_learn_back_desc": "您可以在此处查看卡片背面",
+  "showcase_start_title": "准备好创建你的第一张卡片了吗？",
+  "showcase_start_desc": "我们很乐意带您参观，向您展示如何充分利用此应用程序。",
+  "showcase_start_confirm": "我们走吧",
+  "showcase_start_cancel": "关闭",
+  "showcase_end_title": "恭喜！",
+  "showcase_end_desc": "您已成功创建并学习了您的第一张卡片！",
+  "showcase_end_return_to_home": "返回首页",
+  "pasteLink": "粘贴链接",
+  "ok": "确认",
+  "selectColor": "选择颜色",
+  "gallery": "相册",
+  "link": "链接",
+  "open": "打开",
+  "copy": "复制",
+  "remove": "移除",
+  "save": "保存",
+  "zoom": "缩放",
+  "saved": "已保存",
+  "text": "文字",
+  "resize": "调整大小",
+  "width": "宽度",
+  "height": "高度",
+  "size": "文字大小",
+  "small": "小字号",
+  "large": "大字号",
+  "huge": "超大字号",
+  "clear": "清除",
+  "font": "字体",
+  "search": "搜索",
+  "camera": "拍照",
+  "video": "录像",
+  "undo": "撤销",
+  "redo": "重做",
+  "fontFamily": "字体",
+  "fontSize": "字号",
+  "bold": "粗体",
+  "subscript": "下标",
+  "superscript": "上标",
+  "italic": "斜体",
+  "underline": "下划线",
+  "strikeThrough": "删除线",
+  "inlineCode": "内联代码",
+  "fontColor": "字体颜色",
+  "backgroundColor": "背景颜色",
+  "clearFormat": "清除格式",
+  "alignLeft": "左对齐",
+  "alignCenter": "居中对齐",
+  "alignRight": "右对齐",
+  "justifyWinWidth": "两端对齐",
+  "textDirection": "文本方向",
+  "headerStyle": "标题样式",
+  "normal": "正文",
+  "heading1": "一级标题",
+  "heading2": "二级标题",
+  "heading3": "三级标题",
+  "heading4": "四级标题",
+  "heading5": "五级标题",
+  "heading6": "六级标题",
+  "numberedList": "有序列表",
+  "bulletList": "无序列表",
+  "checkedList": "任务列表",
+  "codeBlock": "代码块",
+  "quote": "引言",
+  "increaseIndent": "增加缩进",
+  "decreaseIndent": "减少缩进",
+  "insertURL": "插入链接",
+  "visitLink": "访问链接",
+  "enterLink": "输入链接",
+  "enterMedia": "输入媒体",
+  "edit": "编辑",
+  "apply": "应用",
+  "hex": "十六进制",
+  "material": "Material 设计",
+  "color": "颜色",
+  "findText": "搜索文本",
+  "moveToPreviousOccurrence": "上一个匹配项",
+  "moveToNextOccurrence": "下一个匹配项",
+  "savedUsingTheNetwork": "通过网络保存",
+  "savedUsingLocalStorage": "使用本地存储保存",
+  "errorWhileSavingImage": "保存图像时发生错误",
+  "pleaseEnterTextForYourLink": "如'了解更多'",
+  "pleaseEnterTheLinkURL": "如'https://example.com'",
+  "pleaseEnterAValidImageURL": "请输入有效的图像URL",
+  "pleaseEnterAValidVideoURL": "请输入有效的视频URL",
+  "photo": "照片",
+  "image": "图像",
+  "caseSensitivityAndWholeWordSearch": "区分大小写和整词搜索",
+  "insertImage": "插入图像",
+  "pickAPhotoFromYourGallery": "从相册选取图片",
+  "takeAPhotoUsingYourCamera": "使用相机拍照",
+  "pasteAPhotoUsingALink": "从链接获取图片",
+  "pickAVideoFromYourGallery": "从相册选取视频",
+  "recordAVideoUsingYourCamera": "使用相机录制",
+  "pasteAVideoUsingALink": "从链接获取视频"
+}
