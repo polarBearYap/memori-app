@@ -3,10 +3,42 @@
 A flashcard learning app, made with Flutter.
 
 ## Table of Contents
+- [Features](#features)
+- [App Demo](#app-demo)
 - [Dev Requirements](#dev-requirements)
 - [Getting Started](#getting-started)
   - [Firebase](#firebase)
   - [IDE setup](#ide-setup)
+
+## Features
+1. **Flashcard Management**: Seamlessly create and edit flashcards, empowering users to personalize their learning experience.
+2. **Advanced Learning System**: Engage with new and review existing flashcards, enhanced by a modern spaced repetition algorithm algorithm that optimizes the learning curve.
+3. **Secure Account Management**: Offers a straightforward process for account deletion, ensuring user data privacy and control.
+4. **Cross-Device Synchronization**: Synchronize your learning progress across multiple devices, providing a consistent and uninterrupted learning experience.
+5. **Theme Customization**: Choose between light and dark themes to suit your visual preference, facilitating a comfortable reading environment day or night.
+6. **Adjustable Text Size**: Customize the text size for optimal readability, accommodating individual visual requirements.
+7. **Multilingual Support**: Access the application in multiple languages, making it accessible and user-friendly for a global audience.
+
+## App Demo
+1. Onboarding/UI guide on how to use the app [(Video link)](https://drive.google.com/file/d/17wFKBKYIcck9WRg62eoXiwz3YS51GEJx/view?usp=share_link)
+<a href="https://drive.google.com/file/d/17wFKBKYIcck9WRg62eoXiwz3YS51GEJx/view?usp=share_link" target="_blank">
+    <img src="app_demo/ui_guide_demo.png" alt="Demo Video" style="width: auto; height: 500px;"/>
+</a>
+
+2. Sign up flow [(Video link)](https://drive.google.com/file/d/1Dw9zKJBnt4ms4d8hZy4crnEusO4UtCIJ/view?usp=share_link)
+<a href="https://drive.google.com/file/d/1Dw9zKJBnt4ms4d8hZy4crnEusO4UtCIJ/view?usp=share_link" target="_blank">
+    <img src="app_demo/signup_demo.png" alt="Demo Video" style="width: auto; height: 500px;"/>
+</a>
+
+3. Configurable theme, multiple languages, and text sizes [(Video link)](https://drive.google.com/file/d/1iVNnntJI5QEQ6h-3VM98qCjzCmmH5HrV/view?usp=share_link)
+<a href="https://drive.google.com/file/d/1iVNnntJI5QEQ6h-3VM98qCjzCmmH5HrV/view?usp=share_link" target="_blank">
+    <img src="app_demo/setting_demo.png" alt="Demo Video" style="width: auto; height: 500px;"/>
+</a>
+
+4. Sync across devices [(Video link)](https://drive.google.com/file/d/15-ZcUWn6dhJZ5zuLYywscuR8wa6Mfvl0/view?usp=share_link)
+<a href="https://drive.google.com/file/d/15-ZcUWn6dhJZ5zuLYywscuR8wa6Mfvl0/view?usp=share_link" target="_blank">
+    <img src="app_demo/device_sync_demo.png" alt="Demo Video" style="width: auto; height: 500px;"/>
+</a>
 
 ## Dev Requirements
 1. Flutter
